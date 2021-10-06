@@ -12,7 +12,6 @@ public class IngressoVIP extends Ingresso{
     // ------------------------------------------------------------------------------
 
     public float valorVIP(){
-        setValor(getValor() + getValorAdicional());
-        return getValor();
+        return getValor() + getValorAdicional();
     }
 }

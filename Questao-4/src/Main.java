@@ -13,7 +13,6 @@ public class Main {
 
         System.out.print("Valor Ingresso: ");
         ingresso.imprimirValor();
-        System.out.print("Valor Ingresso VIP: ");
-        ingressoVIP.imprimirValor();
+        System.out.println("Valor Ingresso VIP com adicional: " + valorComAdicional);
     }
 }
